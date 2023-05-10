@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;800;900&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -60,4 +59,72 @@ a{
     transition: .5s;
     background-color: #f9f3fa;
     color: #02021C;
+    border: transparent;
 }
+
+main{
+    text-transform: uppercase;
+    font-family: 'Gilroy', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 93vh;
+    justify-content: flex-end;
+}
+h2{
+    color: #f128e7;
+    font-size: 55px;
+    margin-bottom: -30px;
+
+}
+
+h1{
+    font-size: 80px;
+    margin-bottom: -10px;
+}
+h3{
+    font-weight: 200;
+    font-size: 34px;
+}
+
+button{
+    background-color: #af42f8;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 180px;
+    height: 40px;
+    border-radius: 25px;
+    border: transparent;
+    margin: 20px;
+}
+
+button:hover{
+    transition: .3s;
+    background-color: transparent;
+    border: 2px solid #af42f8;
+}
+
+p{
+    font-size: 12px;
+    text-align: center;
+    text-transform: lowercase;
+    padding-bottom: 5vh;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+  }
+
+  .video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
